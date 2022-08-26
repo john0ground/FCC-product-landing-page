@@ -183,14 +183,39 @@ form {
    justify-content: space-around;
 }
 
+@media(max-width:900px) {
+    #pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #pricing > div {
+        margin-bottom: 7rem;
+        
+    }    
+}
+
 #pricing > div {
     border: 1px solid black;
     background-color: rgba(176, 125, 49, 0.6);
     width: 300px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .product-title, #pricing h2 {
     font-size: 26px;
+}
+
+#pricing h2 {
+    padding: 10px;
+}
+
+.product-title {
+    background: rgba(176, 125, 49, 0.6);
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 10px;
 }
 
 #pricing p {
@@ -201,6 +226,8 @@ form {
     width: 100px;
     height: 40px;
     cursor: pointer;
+    padding: 5px;
+
 }
 
 footer {
@@ -212,7 +239,7 @@ footer {
 footer {
     display: flex;
     justify-content: center;
-    text-align: center; 
+    align-items: center;
     font-size: 20px;
 }
 
