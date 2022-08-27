@@ -29,7 +29,6 @@ header {
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 2.5rem;
     
 }
 
@@ -242,6 +241,19 @@ footer {
     align-items: center;
     font-size: 20px;
 }
+
+.side-info {
+    background: rgba(176, 125, 49, 0.3);
+    width: 600px;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 2.5rem;
+    box-shadow: 1px 2px 5px 1px black;
+} 
+
+
+    
+
 
 
 
